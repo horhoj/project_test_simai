@@ -6,8 +6,6 @@
 
 typescript, webpack, sass, eslint, prettier, docker, docker-compose
 
-
- 
 >Запуск
 
 в папке с проектом выполнить последовательно

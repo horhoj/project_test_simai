@@ -1,3 +1,7 @@
+import './styles/index.scss';
+import { app } from './app';
+
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('hello');
+  //ЗАПУСКАЕМ ОСНОВНУЮ ФУНКЦИЮ ПОСЛЕ МОНТИРОВАНИЯ DOM
+  app();
 });

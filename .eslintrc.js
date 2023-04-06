@@ -107,7 +107,7 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': [types.ERROR],
     '@typescript-eslint/func-call-spacing': [types.ERROR, 'never'],
     '@typescript-eslint/no-for-in-array': types.ERROR,
-    '@typescript-eslint/no-require-imports': types.ERROR,
+    '@typescript-eslint/no-require-imports': types.OFF,
     '@typescript-eslint/no-unnecessary-qualifier': types.ERROR,
     '@typescript-eslint/no-unnecessary-type-assertion': types.WARN,
     '@typescript-eslint/no-useless-constructor': types.OFF,
@@ -117,5 +117,6 @@ module.exports = {
     '@typescript-eslint/no-extraneous-class': types.OFF,
     '@typescript-eslint/explicit-function-return-type': types.OFF,
     '@typescript-eslint/no-empty-function': types.OFF,
+    '@typescript-eslint/no-var-requires': types.OFF,
   },
 };

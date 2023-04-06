@@ -9,10 +9,16 @@
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src"
   },
-  "files": [
-    "src/index.ts",
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts",
+    "**/*.html",
+    "**/*.scss",
+    "**/*.css",
+    "webpack.config.js",
     ".eslintrc.js"
   ]
 }
